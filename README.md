@@ -1,6 +1,6 @@
 
 An app for sending quick messages in the Discord webhook API.
-This app is written in node.js with the factory design patter and uses the command line to work.
+This app is written in node.js with the factory design pattern and uses the command line to work.
 
 the command have 2 actions:
 
@@ -18,3 +18,7 @@ ______________________________________________________________________________
 **list-members** - this will list all the members that was defined in the server class and that are able to be used in the send command.
 this action has 1 mandatory option:
 1. server (alias: s) - the server we would like to view the members list
+
+an example for a list-members call:
+
+$ app.js list-members -s=myServer
